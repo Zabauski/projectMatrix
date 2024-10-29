@@ -1,6 +1,6 @@
 ## Project Structure
 
-###Layout File: [app/src/main/res/layout/activity_main.xml](app/src/main/res/layout/activity_main.xml)
+### Layout File: [app/src/main/res/layout/activity_main.xml](app/src/main/res/layout/activity_main.xml)
 
 This XML file defines the layout for the main activity of the application. It contains the user interface elements such as buttons, text views, and other UI components that users interact with.
 
