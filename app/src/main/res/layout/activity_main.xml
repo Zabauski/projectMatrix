@@ -93,4 +93,43 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
+    <GridLayout
+        android:id="@+id/matrix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="16dp">
+
+        <!-- example matrix cell's -->
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/darker_gray" />
+    </GridLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
